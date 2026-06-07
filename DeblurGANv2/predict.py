@@ -153,7 +153,7 @@ if __name__ == '__main__':
     
     weights_path = 'fpn_inception.h5'
     out_dir = '../data/deblur/'
-
+    os.makedirs(out_dir, exist_ok=True)
     if len(img_pattern) > 0:
         main(img_pattern=img_pattern, weights_path=weights_path, out_dir=out_dir)
     else:

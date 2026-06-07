@@ -126,6 +126,6 @@ def load_and_evaluate(gt_folder, pred_folder):
 
 if __name__ == '__main__':
     FOLDER_GROUND_TRUTH = "ground"
-    FOLDER_PREDICT = "deblur"
+    FOLDER_PREDICT = "real-esrgan"
     
     load_and_evaluate(FOLDER_GROUND_TRUTH, FOLDER_PREDICT)
